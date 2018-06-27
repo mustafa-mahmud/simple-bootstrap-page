@@ -67,7 +67,7 @@ and open the template in the editor.
                     <div class="col-lg-4">
                         <div class="features-icon-item mx-auto mb-5 mb-lg-0 mb-lg-3">
                             <div class="features-icon-icons d-flex">
-                                <i class="icon-screen-desktop m-auto text-primary"></i>
+                                <i class="icon-bulb m-auto text-primary"></i>
                             </div>
                             <h3 class="mb-3">Fully Responsive</h3>
                             <p class="lead mb-0">This theme will look great on any device, no matter the size!</p>
@@ -95,25 +95,25 @@ and open the template in the editor.
             </div>
         </section>
         <!---Images Liabrary---->
-        <section>
+        <section class="imgGallery">
             <div class="container-fluid p-0">
                 <div class="row no-gutters">
-                    <div class="col-lg-6 order-lg-2 text-white" style="background-image: url('images/bg-showcase-1.jpg');"></div>
-                    <div class="col-lg-6 order-lg-1 my-auto p-7">
+                    <div class="col-lg-6 imgGalleryImg order-lg-2 text-white" style="background-image: url('images/colorBox.jpeg');"></div>
+                    <div class="col-lg-6 order-lg-1 my-auto myPadding">
                         <h3 class="showcase mb-3"><u>Fully Responsive Design</u></h3>
                         <p class="lead mb-0 textStyle">When you use a theme created by Start Bootstrap, you know that the theme will look great on any device, whether it's a phone, tablet, or desktop the page will behave responsively!</p>
                     </div>
                 </div>
                 <div class="row no-gutters">
-                    <div class="col-lg-6 text-white" style="background-image: url('images/bg-showcase-2.jpg');"></div>
-                    <div class="col-lg-6 my-auto p-7">
+                    <div class="col-lg-6 imgGalleryImg text-white" style="background-image: url('images/dollar.jpeg');"></div>
+                    <div class="col-lg-6 my-auto myPadding">
                         <h3 class="showcase mb-3"><u>Fully Responsive Design</u></h3>
                         <p class="lead mb-0 textStyle">When you use a theme created by Start Bootstrap, you know that the theme will look great on any device, whether it's a phone, tablet, or desktop the page will behave responsively!</p>
                     </div>
                 </div>
                 <div class="row no-gutters">
-                    <div class="col-lg-6 order-lg-2 text-white" style="background-image: url('images/bg-showcase-3.jpg')"></div>
-                    <div class="col-lg-6 order-lg-1 p-7">
+                    <div class="col-lg-6 imgGalleryImg order-lg-2 text-white" style="background: url('images/children.jpeg') left center"></div>
+                    <div class="col-lg-6 order-lg-1 myPadding">
                         <h3 class="showcase mb-3"><u>Fully Responsive Design</u></h3>
                         <p class="lead mb-0 textStyle">When you use a theme created by Start Bootstrap, you know that the theme will look great on any device, whether it's a phone, tablet, or desktop the page will behave responsively!</p>
                     </div>
@@ -121,27 +121,27 @@ and open the template in the editor.
             </div>
         </section>
         <!---Testimonial---->
-        <section class="text-center bg-light p-7">
-            <h2 class="mb-5">What People Are Saying....</h2>
+        <section class="text-center bg-dark text-white p-5">
+            <h2 class="mb-5" style="font-size: 1.5rem !important;">What People Are Saying....</h2>
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-4 p-5">
-                        <div class="mx-auto mb-lg-0">
-                            <img class="img-fluid rounded-circle mb-3" src="images/testimonials-2.jpg" />
+                    <div class="col-lg-4 px-5 py-2">
+                        <div class="mx-auto mb-lg-0 myImg">
+                            <img class="img-fluid img-thumbnail rounded-circle mb-3" src="images/men1.jpeg" />
                             <h3 class="mb-3">Nikky .t</h3>
                             <p class="font-weight-light font-italic mb-0">"This is fantastic! Thanks so much guys!"</p>
                         </div>
                     </div>
-                    <div class="col-lg-4 p-5">
-                        <div class="mx-auto mb-lg-0">
-                            <img class="img-fluid rounded-circle mb-3" src="images/testimonials-1.jpg" />
+                    <div class="col-lg-4 px-5 py-2">
+                        <div class="mx-auto mb-lg-0 myImg">
+                            <img class="img-fluid img-thumbnail rounded-circle mb-3" src="images/men2.jpeg" />
                             <h3 class="mb-3">Freed .S</h3>
                             <p class="font-weight-light font-italic mb-0">"Bootstrap is amazing. I've been using it to create lots of super nice landing pages."</p>
                         </div>
                     </div>
-                    <div class="col-lg-4 p-5">
-                        <div class="mx-auto mb-lg-0">
-                            <img class="img-fluid rounded-circle mb-3" src="images/testimonials-3.jpg" />
+                    <div class="col-lg-4 px-5 py-2">
+                        <div class="mx-auto mb-lg-0 myImg">
+                            <img class="img-fluid img-thumbnail rounded-circle mb-3" src="images/women.jpeg" />
                             <h3 class="mb-3">Jimmy .S</h3>
                             <p class="font-weight-light font-italic mb-0">"Thanks so much for making these free resources available to us!"</p>
                         </div>
@@ -150,17 +150,17 @@ and open the template in the editor.
             </div>
         </section>
         <!---Call to Action--->
-        <section class="text-center shocaseParent text-white p-7">
+        <section class="shocaseParent d-flex">
             <div class="overlay2"></div>
-            <div class="container">
-                <div class="row p-5">
-                    <div class="col-xl-9 mx-auto mb-4">
-                        <h3 class="text-dark lead font-weight-light" style="font-size: 2.2rem !important;">Ready to get Started ? Sign Up now</h3>
+            <div class="container align-self-center">
+                <div class="row">
+                    <div class="col-xl-7 mx-auto mb-2">
+                        <h3 class="text-dark lead" style="font-size: 1.65rem !important; color: white !important;">Ready to get Started ? Sign Up now</h3>
                     </div>
-                    <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
+                    <div class="col-xl-7 mx-auto">
                         <form>
                             <div class="form-row">
-                                <div class="col-12 col-md-9 mb-md-0">
+                                <div class="col-12 col-md-9 mb-3">
                                     <input type="email" class="form-control form-control-lg" placeholder="enter your email..." />
                                 </div>
                                 <div class="col-12 col-md-3">
@@ -175,8 +175,8 @@ and open the template in the editor.
         <!---Footer---->
         <footer class="bg-dark p-3 myFooter">
             <div class="container">
-                <div class="row">
-                    <div class="col-lg-6 h-100 text-center text-lg-left my-auto">
+                <div class="row d-flex">
+                    <div class="col-lg-6 h-100 order-2 order-md-2 order-lg-1 text-center text-lg-left my-auto">
                         <ul class="list-inline mb-2">
                             <li class="list-inline-item">
                                 <a href="#">About</a>
@@ -196,7 +196,7 @@ and open the template in the editor.
                         </ul>
                         <p class="text-muted">&copy; your website for 2018</p>
                     </div>
-                    <div class="col-lg-6 h-100 text-center my-auto">
+                    <div class="col-lg-6 h-100 order-1 order-md-1 order-lg-2 text-center my-auto mb-3">
                         <ul class="list-inline mb-0">
                             <li class="list-inline-item mr-3">
                                 <a href="#">
