@@ -1,0 +1,95 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 26, 2018, 7:17:23 PM
+    Author     : MITHU
+*/
+body{
+    font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+}
+p{
+    line-height: 1.5rem !important;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+    font-weight: 700 !important;
+}
+h2,h3{
+    font-size: 1.2rem !important;
+}
+.headerStyle{
+    background: url("../images/bg-masthead.jpg") no-repeat center center;
+    padding: 8rem 0;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
+    background-color: #343a40;
+}
+.overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0.3;
+    background: #000;
+    top: 0;
+    left: 0;
+}
+.headerStyle h1{
+    font-size: 2rem;
+}
+.textStyle{
+    line-height: 2rem !important;
+}
+.p-6{
+    padding: 6rem !important;
+}
+.p-7{
+    padding: 7rem !important;
+}
+.shocaseParent{
+    background-image: url("../images/signUp.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    position: relative;
+}
+.overlay2{
+    position: absolute;
+    background-color: black;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.3;
+}
+.showcase{
+    font-size: 1.5rem !important;
+}
+@media (min-width: 768px){
+    .headerStyle{
+        padding: 12rem 0;
+    }
+    .headerStyle h1{
+        font-size: 3rem;
+    }
+}
+.features-icon{
+    padding: 7rem 0;
+}
+.features-icon-item{
+    max-width: 20rem;
+}
+.features-icon-icons{
+    height: 7rem;
+}
+.features-icon-icons i{
+    font-size: 4.5rem;
+}
+.myFooter{
+    border-top: 10px solid chocolate;
+}
